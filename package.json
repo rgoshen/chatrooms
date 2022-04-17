@@ -1,7 +1,7 @@
 {
   "name": "chatrooms",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple chatroom app",
   "main": "server.js",
   "directories": {
     "lib": "lib"
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rick Goshen",
   "license": "ISC",
   "dependencies": {
     "socket.io": "^4.4.1"
