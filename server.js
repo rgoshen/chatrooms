@@ -57,3 +57,6 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}...`);
 });
+
+const chatServer = require('./lib/chat_server');
+chatServer.listen(server);
